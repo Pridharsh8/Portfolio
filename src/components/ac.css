@@ -1,0 +1,65 @@
+/* Main container */
+.achievements-container {
+    padding: 130px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background-color: transparent;
+  }
+  
+  /* Title styling */
+  .achievements-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+    -webkit-background-clip: text; /* Clips the gradient to the text */
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Achievements grid container */
+  .achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Individual achievement card */
+  .achievement-card {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .achievement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Badge image */
+  .achievement-badge {
+    max-width: 150px;
+    height: auto;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  
+  /* Achievement title */
+  .achievement-title {
+    font-size: 1.5rem;
+    color: #ffdbf1;
+    margin-bottom: 10px;
+  }
+  
+  /* Achievement description */
+  .achievement-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e0d2ff;
+  }
+  
